@@ -1,4 +1,336 @@
-h1{
-    font-size:50px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    font-size: 14px;
+    background-color:#111111;
+    color:#fff;
+}
+
+/* custom css  */
+.d-flex{
+    display: flex!important;
+}
+
+.justify-content-between{
+    justify-content:space-between!important;
+}
+.justify-content-around{
+    justify-content: space-around!important;
+}
+.justify-content-center{
+    justify-content: center!important;
+}
+.flex-column{
+    flex-direction: column;
+}
+.align-items-center{
+    align-items: center;
+}
+
+/* custom css  */
+
+.full-width{
+    width:100%;
+    float: left;
+    position: relative;
+    min-width: 1px;
+    
+}
+
+.header-mainDiv {
+    /* height: 100vh; */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img.nav-logo {
+    width: 110px;
+}
+
+ul.nav-menus,.footer-menus {
+    list-style: none;
+    
+}
+
+
+li.nav-links {
+    padding: 0 25px;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+li.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+i.fa-solid.fa-sort-down {
+    font-size: 15px;
     text-align: center;
+}
+
+.navbar-Maindiv {
+    padding-top: 25px;
+}
+
+.Hero-imgDiv img{
+    height:550px;
+}
+
+.hello-div {
+    font-size: 25px;
+    font-weight: 500;
+    color: #F03140;
+}
+
+.auth-roleDiv {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.auth-disc {
+    font-size: 16px;
+}
+
+.aboutme-btnDiv {
+    margin-top: 30px;
+}
+
+button {
+    background: #C91B28;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 19px;
+}
+.cards-mainDiv{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.card-icons{
+    font-size: 50px;
+}
+.card-productDiv{
+    background:#1E1E1E;
+}
+
+.product-icondiv {
+    margin-bottom: 15px;
+}
+
+.card-heading {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-disc {
+    font-size: 20px;
+    color: #969696;
+    margin-bottom: 15px;
+}
+
+.card-knowmore {
+    color: #EF4040;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-icons{
+    color: #EF4040;
+}
+.card-productDiv{
+    padding:30px;
+    
+}   
+
+.card-productDiv:hover{
+    transition: all .5s ease-in-out 0s;
+    transform: scale(1.08);
+}
+
+.card-productDiv.center {
+    margin: 0 30px;
+}
+
+.left-backdrop {
+    width: 669px;
+    height: 110vh;
+    z-index: -1;
+    position: absolute;
+    left: -92px;
+    background: #181818;
+}
+
+.experiance-cardsDiv{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+   
+}
+
+.exp-card {
+    /* flex: 1 0 0; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.doubleexp-card.center{
+    margin: 0 30px;
+}
+
+
+.exp-cards{
+    margin-bottom: 20px;
+    background: #1E1E1E;
+    padding: 20px 55px;
+    text-align:center;
+}
+.exp-counts{
+    font-size: 60px;
+    font-weight: 900;
+    color: #EF4040;
+}
+
+.doubexp-count{
+    font-size: 30px;
+    font-weight: 900;
+    color: #EF4040;
+}
+
+.exp-count {
+    font-size: 50px;
+    font-weight: 900;
+    color: #EF4040;
+}
+.doubexp-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.exp-texts{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.exp-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+.featurediv-wrapper{
+    width: 1200px;
+    margin:50px auto;
+}
+
+.primary-title {
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.features-viewall {
+    background: #EF4040;
+    padding: 10px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.fatures-card {
+    width: fit-content;
+}
+.card-img {
+    width: 325px;
+}
+
+.card-boxbg {
+    background: #1E1E1E;
+    padding: 40px;
+}
+
+
+img.feature-cardimg {
+    width: 100%;
+    transition: all 0.5s ease-in-out 0s;
+    transform: scale(1);
+}
+
+.features-cardsDiv {
+    margin-top: 30px;
+}
+
+.fatures-card:nth-child(1){
+    margin-right: 20px;
+}
+
+.feature-cardTitle {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contacts-div {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.left-primary {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.content-wrapperdiv{
+    background: #1E1E1E;
+    width: fit-content;
+    margin: 30px auto 50px;
+    width: 830px;
+    padding: 40px 0;
+}
+
+.footer-warpper{
+    width:1200px;
+    margin: 0 auto;
+}
+
+li.footer-menulinks {
+    padding: 0 25px;
+}
+
+.footer-socialdiv{
+    background:#1E1E1E;
+    margin-top: 15px;
+    padding:15px;
+}
+
+.socail-icons{
+    flex: 1;
+}
+
+.footer-warppers{
+    width:1000px;
+    margin:0 auto;
+}
+.nav-logoDiv{
+    flex:1;
+}
+
+.socail-icons i {
+    padding: 0 20px;
+}
+
+.socail-icons i {
+    padding: 0 20px;
+    font-size: 20px;
 }
