@@ -25,6 +25,10 @@ body{
 .justify-content-center{
     justify-content: center!important;
 }
+
+.justify-content-evenly{
+    justify-content:space-evenly!important
+}
 .flex-column{
     flex-direction: column;
 }
@@ -36,10 +40,14 @@ body{
 
 .full-width{
     width:100%;
-    float: left;
     position: relative;
     min-width: 1px;
     
+}
+
+.hero-sectionDiv{
+    width:1200px;
+    margin:0 auto;
 }
 
 .header-mainDiv {
@@ -118,6 +126,8 @@ button {
 }
 .card-productDiv{
     background:#1E1E1E;
+    padding:30px;
+    width: 330px;
 }
 
 .product-icondiv {
@@ -145,10 +155,7 @@ button {
 .card-icons{
     color: #EF4040;
 }
-.card-productDiv{
-    padding:30px;
-    
-}   
+  
 
 .card-productDiv:hover{
     transition: all .5s ease-in-out 0s;
@@ -160,11 +167,12 @@ button {
 }
 
 .left-backdrop {
-    width: 669px;
+    width: 50%;
     height: 110vh;
     z-index: -1;
     position: absolute;
-    left: -92px;
+    left: 0px;
+    top:-55px;
     background: #181818;
 }
 
@@ -322,9 +330,9 @@ li.footer-menulinks {
     width:1000px;
     margin:0 auto;
 }
-.nav-logoDiv{
+/* .nav-logoDiv{
     flex:1;
-}
+} */
 
 .socail-icons i {
     padding: 0 20px;
@@ -334,3 +342,21 @@ li.footer-menulinks {
     padding: 0 20px;
     font-size: 20px;
 }
+
+/* @media (max-width: 575.98px) { } */
+
+/* @media (max-width: 767.98px) { //} */
+
+@media (max-width: 1150px) {
+    .nav-wrapper{
+        padding: 0 50px ;
+    }
+ }
+
+@media (max-width: 1199.98px) { 
+    .nav-wrapper{
+        padding: 0 30px ;
+    }
+ }
+
+/* @media (max-width: 1399.98px) { ... } */
