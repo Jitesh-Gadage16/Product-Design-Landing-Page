@@ -15,6 +15,7 @@
         rel="stylesheet">
     <!-- font-awasome icons  -->
     <script src="https://kit.fontawesome.com/cb9a997e82.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -60,7 +61,7 @@
         <!--------- Navbar End  --------->
 
         <!-- Hero section start  -->
-        <div class="hero-sectionDiv d-flex full-width justify-content-evenly">
+        <div class="hero-sectionDiv d-flex full-width justify-content-evenly" data-aos="fade-up"  data-aos-duration="2000">
             <div class="hero-leftDiv">
                 <div class="Hero-imgDiv">
                     <img src="./assets/Untitled design (35).png" alt="" class="hero-imagediv">
@@ -78,14 +79,17 @@
                     Sapiente nulla ipsa <br> animi placeat eaque! Adipisci, error et.
                 </div>
                 <div class="aboutme-btnDiv">
-                    <Button type="button">About Me</Button>
+                    <div class="button-borders">
+                        <button class="primary-button"> About Me
+                        </button>
+                      </div>
                 </div>
             </div>
         </div>
 
         <!-- Hero section End  -->
 
-        <div class="product-cardsDiv full-width">
+        <div class="product-cardsDiv full-width" data-aos="fade-up"  data-aos-duration="2000">
             <div class="left-backdrop"></div>
             <div class="cards-mainDiv d-flex justify-content-between align-items-center">
                 <div class="card-productDiv">
@@ -136,7 +140,7 @@
             </div>
         </div>
 
-        <div class="experiance-Deatils full-width">
+        <div class="experiance-Deatils full-width"  data-aos="fade-up"  data-aos-duration="2000">
             <div class="experiance-cardsDiv">
                 <div class="exp-card">
                     <div class="exp-counts">
@@ -193,9 +197,9 @@
             </div>
         </div>
 
-        <div class="featured-productDiv full-width">
+        <div class="featured-productDiv full-width"  data-aos="fade-up"  data-aos-duration="2000">
             <div class="featurediv-wrapper">
-                <div class="features-top d-flex justify-content-around align-items-center">
+                <div class="features-top d-flex justify-content-between align-items-center">
                     <div class="features-title">
                         <div class="primary-title">
                             Featured Products
@@ -209,7 +213,7 @@
                     </div>
                 </div>
 
-                <div class="features-cardsDiv d-flex justify-content-center">
+                <div class="features-cardsDiv d-flex justify-content-around">
                     <div class="fatures-card">
                         <div class="card-boxbg">
                             <div class="card-img">
@@ -240,7 +244,7 @@
 
                 </div>
 
-                <div class="features-cardsDiv d-flex justify-content-center">
+                <div class="features-cardsDiv d-flex justify-content-around">
                     <div class="fatures-card">
                         <div class="card-boxbg">
                             <div class="card-img">
@@ -274,7 +278,7 @@
 
         </div>
 
-        <div class="contact-together full-width">
+        <div class="contact-together full-width "  data-aos="fade-up"  data-aos-duration="2000">
             <div class="contacts-div">
                 <div class="content-wrapperdiv d-flex justify-content-around align-items-center">
                     <div class="left-content">
@@ -297,7 +301,7 @@
 
         </div>
 
-        <div class="footer-maindiv full-width">
+        <div class="footer-maindiv full-width"  data-aos="fade-up"  data-aos-duration="2000">
             <div class="footer-warpper">
                 <div class="primary-footer d-flex justify-content-center align-items-center">
                     <ul class="footer-menus d-flex">
@@ -330,7 +334,10 @@
 
     </div>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
